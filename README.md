@@ -57,5 +57,3 @@ This project demonstrates the implementation of a scalable messaging backend usi
 - Consider implementing CloudWatch Logs and Metrics for monitoring and troubleshooting message processing.
 
 ---
-
-Feel free to customize this README file further with specific details, instructions, and additional sections as needed to best represent your AWS Messaging Backend project managed through the AWS Management Console Editor.

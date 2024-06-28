@@ -43,7 +43,7 @@ This project demonstrates the implementation of a scalable messaging backend usi
 
 ![Send Message](images/Sender's-Output.png)
 
-- Use the AWS SDKs or AWS Management Console to send messages to the SQS queue (`ChatAPP`).
+- Use the AWS SDKs or AWS Management Console to send messages to the SQS queue.
 
 ### Receiving Messages
 

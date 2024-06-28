@@ -1,6 +1,6 @@
 # AWS Messaging Backend
 
-![AWS Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1200px-Amazon_Web_Services_Logo.svg.png)
+![AWS Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/320px-Amazon_Web_Services_Logo.svg.png)
 
 ## Overview
 
@@ -57,3 +57,5 @@ This project demonstrates the implementation of a scalable messaging backend usi
 - Consider implementing CloudWatch Logs and Metrics for monitoring and troubleshooting message processing.
 
 ---
+
+Feel free to customize this README file further with specific details, instructions, and additional sections as needed to best represent your AWS Messaging Backend project managed through the AWS Management Console Editor.

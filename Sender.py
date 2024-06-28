@@ -1,20 +1,16 @@
 import boto3
 import json
 
-# Initialize SQS client
 sqs = boto3.client('sqs')
 
-# Replace 'queue_url' with your actual queue URL
-queue_url = 'https://sqs.ap-south-1.amazonaws.com/417117090286/ChatAPP'
+queue_url = '' #enter your queue_url here
 
-# Sample JSON data
 data = {
     'user_id': 123,
-    'message': 'Hello from Kanishk',
+    'message': 'Hello! I am Kanishk Chaudhary and This is Serverless message transfer to the reciver person with the help of "SQS"',
     'timestamp': '2024-06-28T12:00:00Z'
 }
 
-# Convert Python dictionary to JSON string
 message_body = json.dumps(data)
 
 # Send a message to the queue
@@ -23,5 +19,4 @@ response = sqs.send_message(
     MessageBody=message_body
 )
 
-# Print the response (includes message ID and MD5 of the body)
 print(f"MessageId: {response['MessageId']}")
